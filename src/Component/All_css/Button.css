@@ -77,3 +77,31 @@
   transition: 0s;
   transform: translate(0, 5%);
 }
+
+
+
+
+
+@media (max-width:640px) {
+
+.home_button_container{
+  gap: 2rem;
+}
+
+.btn {
+  width: 4rem;
+  height: 15px;
+  font-size:0.7rem;
+}
+}
+
+
+
+@media (max-width:360px) {
+  .btn {
+    width: 3rem;
+    height: 10px;
+    font-size:0.6rem;
+  }
+}
+
