@@ -2,7 +2,7 @@ import { FeatureBox } from "./HelperComponent/FeatureBox/FeatureBox"
 import burj_logo from "../assets/Image/burj-token.webp";
 import line_bg from "../assets/Image/lineSmall-bg.png";
 import loopShape_black from "../assets/Image/loop_shapeblack.png";
-import Tokenomic_img from "../assets/Image/burj-tokenomic-img_new.png";
+import Tokenomic_img from "../assets/Image/burj-tokenomic-img_new.webp";
 
 import "./All_css/FeatureSection.css";
 
