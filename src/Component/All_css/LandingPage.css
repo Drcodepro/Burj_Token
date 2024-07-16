@@ -1,0 +1,160 @@
+.LandingPage{
+  padding: 0rem 2rem 1rem 5rem;
+  gap: 3rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  height:800px;
+  box-shadow: inset 0 -50px 40px -5px #000;
+}
+
+
+.landingPoster{
+    position:absolute;
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(153deg,rgba(224, 68, 255, 0.116) 0%, rgba(0, 13, 26, 0.681) 43%);
+  }
+  .landingPosterimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+.landing_shapeRound{
+  position:absolute;
+  height:100%;
+  top: 45%;
+  left: 85%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  animation-name: roundShape-anim;
+  animation-duration:150s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction:reverse;
+}
+
+@keyframes roundShape-anim {
+  0%{
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+}
+
+
+.LandingPage .landing_info{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  gap: 2rem;
+  text-align:start;
+  border-left: rgba(219, 39, 255, 0.469) 2px solid;
+  padding-left: 2rem;
+
+}
+
+.LandingPage .landing_info .heading{
+  font-size:5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: start;
+  width: 100%;
+  text-shadow: rgba(125, 125, 125, 0.703) 2px 4px 2px;
+  color: rgb(255, 255, 255);
+}
+
+.LandingPage .landing_info .para{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:rgb(211, 211, 211)
+}
+
+
+
+
+
+/* tab responsive */
+
+@media (max-width:950px) {
+
+  .LandingPage{
+    padding: 0rem 2rem 1rem 5rem;
+    height:600px;
+  }
+  .LandingPage .landing_info .heading{
+    font-size:3rem;
+  }
+  .LandingPage .landing_info{
+    width:100%;
+  }
+
+}
+
+
+
+/* mobile responsive */
+
+
+@media (max-width:640px) {
+  .LandingPage{
+    padding: 0rem 1rem 1rem 3rem;
+    height: 80vh;
+    gap: 1rem;
+  }
+
+  .LandingPage .landing_info{
+    gap: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+    border-left:rgba(219, 39, 255, 0.469) 1px solid;
+  }
+
+  .LandingPage .landing_info .heading{
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .LandingPage .landing_info .para{
+    font-size: 1rem;
+    font-weight: 300;
+    color:rgb(255, 255, 255)
+}
+
+/* button */
+.home_button_container{
+  gap: 2rem;
+}
+
+.btn {
+  width: 4rem;
+  height: 15px;
+  font-size:0.7rem;
+}
+}
+
+
+
+@media (max-width:360px) {
+  .LandingPage{
+    padding: 0rem 1rem 1rem 1rem;
+  }
+  .LandingPage .landing_info .heading{
+    font-size: 1.5rem;
+  }
+  .LandingPage .landing_info{
+    gap: 0.6rem;
+  }
+  .btn {
+    width: 3rem;
+    height: 10px;
+    font-size:0.6rem;
+  }
+}
+

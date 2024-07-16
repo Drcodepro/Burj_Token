@@ -1,0 +1,117 @@
+.AboutSection{
+    width: 100%;
+    height: 100vh;
+    padding: 2rem 2rem 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 3rem;
+}
+
+.AboutSection .about_poster_container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_poster_container .about_poster_img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.about_poster_container .btn{
+    display: none;
+}
+
+.About-info_container{
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0.5rem;
+}
+
+.About-info_container .about-heading{
+    font-size: 2rem;
+}
+
+.About-info_container .about-heading-2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.About-info_container .about-info{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:rgb(211, 211, 211)
+}
+
+
+@media (max-width:950px) {
+    .About-info_container .about-heading-2{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .About-info_container .about-info{
+        font-size: 1rem;
+        font-weight: 300;
+        color:rgb(211, 211, 211)
+    }
+}
+
+@media (max-width:730px){
+    .about_poster_container .btn{
+        display:block;
+    }
+    .About-info_container .btn{
+        display: none;
+    }
+}
+
+
+
+@media (max-width:640px){
+
+    .AboutSection{
+        width: 100%;
+        height: fit-content;
+        padding: 1rem 2rem 1rem 2rem;
+        flex-direction: column-reverse;
+        justify-content:center;
+        gap: 2rem;
+    }
+
+    .AboutSection .about_poster_container{
+        width: 100%;
+    }
+    .about_poster_container .about_poster_img{
+        width: 80%;
+    }
+
+    .About-info_container {
+        width: 100%;
+    }
+    .About-info_container .about-heading{
+        font-size: 2rem;
+    }
+    
+    .About-info_container .about-heading-2{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    .About-info_container .about-info{
+        font-size:0.9rem;
+    }
+}
+
+
+@media (max-width:360px){
+
+    .AboutSection{
+        width: 100%;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+}
