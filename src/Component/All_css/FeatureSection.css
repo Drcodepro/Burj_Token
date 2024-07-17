@@ -118,6 +118,7 @@
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
     align-content: center;
+    row-gap: 2rem;
 }
 
 
@@ -189,6 +190,7 @@
     .tokenomicSection .tokenomic-details{
         grid-template-columns: repeat(1,1fr);
         gap: 1.2rem;
+        row-gap: 1.2rem;
     }
     .tokenomic-details .tokenomc-detail-box{
         width:90%;

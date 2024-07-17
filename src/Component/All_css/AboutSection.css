@@ -1,4 +1,5 @@
 .AboutSection{
+    position: relative;
     width: 100%;
     height: 100vh;
     padding: 2rem 2rem 1rem 2rem;
@@ -6,6 +7,20 @@
     justify-content: space-between;
     align-items:center;
     gap: 3rem;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        background-image: url(../../assets/Image/bg_linneess.webp);
+        background-size: cover;
+        z-index: -1;
+        opacity: 0.3;
+        box-shadow: inset 0 2px 1px 1px #000;
+    }
 }
 
 .AboutSection .about_poster_container{
