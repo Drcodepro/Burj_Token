@@ -83,7 +83,8 @@
   text-align: start;
   width: 100%;
   text-shadow: rgba(125, 125, 125, 0.703) 2px 4px 2px;
-  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px rgb(130, 140, 255);
+  color: white;
 }
 
 .LandingPage .landing_info .para{
