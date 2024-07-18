@@ -204,17 +204,21 @@
    padding:1.5rem 1.5rem;
 
    &::before{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-top: 3px solid #db27ffa3;
     border-left: 3px solid #db27ffa3;
   }
 
   &::after{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-bottom: 3px solid #db27ffa3;
     border-right: 3px solid #db27ffa3;
+  }
+  &:hover&::after,&:hover&::before{
+    width: 50px;
+    height: 50px;
   }
 }
 
