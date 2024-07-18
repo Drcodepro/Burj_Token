@@ -36,9 +36,9 @@ export const FeatureSection =()=>{
 
                 <div className="tokenomic-details">
                     <div className="tokenomc-detail-box"> Total Supply : 1 Billion</div>
-                    <div className="tokenomc-detail-box">Token Name : BTDT</div>
-                    <div className="tokenomc-detail-box">Token Symbol : N/A</div>
-                    <div className="tokenomc-detail-box">Network : N/A</div>
+                    <div className="tokenomc-detail-box">Name : Burj Trading Token</div>
+                    <div className="tokenomc-detail-box">Symbol : BTDT</div>
+                    <div className="tokenomc-detail-box">Network : BEP20</div>
 
                 </div>
             </div>
