@@ -127,12 +127,14 @@
 }
 
 
-@media (max-width:360px){
+@media (max-width:490px){
 
     .AboutSection{
         width: 100%;
         padding: 0rem 1rem 0rem 1rem;
         margin-bottom: 2rem;
-
+    }
+    .About-info_container .about-heading{
+        font-size: 2rem;
     }
 }
