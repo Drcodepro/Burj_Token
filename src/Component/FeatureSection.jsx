@@ -15,7 +15,7 @@ const FeatureInfo = [{Image:{burj_logo},Name:"Decentralized Trading Platform:",I
 
 export const FeatureSection =()=>{
     return (
-        <div className="FeatureSection">
+        <div className="FeatureSection" id="FeatureSection">
             <h1 className="FeatureSection-heading">Key Features</h1>
             <p className="FeatureSection-info">We Provide Many Features to Our Buyers.</p>
 
@@ -29,7 +29,7 @@ export const FeatureSection =()=>{
 
             {/* Tokenomic section */}
 
-            <div className="tokenomicSection">
+            <div className="tokenomicSection" id="TokenomicSection">
 
                 <h1 className="FeatureSection-heading">Tokenomics</h1>
                 <img src={Tokenomic_img} alt="tokenomic graph" className="tokenomic_img" />

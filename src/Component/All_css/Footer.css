@@ -1,0 +1,196 @@
+
+.Home_footer_section{
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(12, 12, 12);
+    padding-top: 1rem;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    background-image: url(../assets/Image/Footer_bg.svg);
+    background-size: cover;
+}
+
+.Home_footer_section .footer_mainContent{
+    display: flex;
+    align-items: start;
+    justify-content:space-between;
+    gap: 5rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.Home_footer_section .Home_footer_info{
+    width:fit-content;
+    text-align: start;
+    width: 40%;
+}
+.Home_footer_section .Home_footer_info .footer_info{
+    font-size:1rem;  
+    font-weight: 400;
+    color: rgb(163, 163, 163);
+    margin-top: 0;
+    text-align: start;
+    width:100%;
+}
+
+.Home_footer_section .Home_Footer_logo_container{
+    display: flex;
+    align-items: center;
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.Home_footer_section .Home_Footer_logo_container img{
+    width: 3rem;
+    height:auto;
+}
+.Home_footer_section .Home_Footer_logo_container h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+}
+
+
+.Home_footer_section h2{
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    /* background: linear-gradient(90deg, rgb(169, 255, 248) 1%, rgb(174, 52, 255) 60%);
+   background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin-bottom:0.6rem;
+    width: fit-content;
+}
+
+
+.Important p{
+    font-size: 1rem;  
+    font-weight: 400;
+    color: rgb(163, 163, 163);  
+    margin-bottom: 0.3rem;
+    padding-bottom: 0;
+    width: fit-content;
+    text-align: start;
+}
+
+.Important a{
+    text-decoration: none;
+}
+
+
+.Home_footer_section .footer_rights{
+width: 100%;
+font-size: 0.8rem;  
+font-weight: 400;
+padding: 1rem 0rem;
+color: rgb(163, 163, 163);
+display: flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.Home_footer_section .footer_rights p{
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    width: fit-content;
+}  
+
+
+.contact_us{
+    width:fit-content;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.contact_us .social_media_icons{
+    gap:1.5rem;
+    display: flex;
+    align-items: center;
+
+}
+.contact_us .social_media_icons img{
+    width: 1rem;
+    height: auto;
+}
+
+.Home_footer_section hr{
+    width:100%;
+    border: none; 
+    height:0.05rem; 
+    background: radial-gradient(circle, rgb(52, 99, 255) 18%, rgb(9, 27, 66) 100%);
+}
+
+
+
+@media (max-width:850px){
+
+    .Home_footer_section .Home_footer_info .footer_info{
+        font-size:0.7rem;  
+    }
+    .Important p{
+        font-size:0.7rem;  
+    }
+}
+
+
+@media (max-width: 570px){
+    .Home_footer_section .footer_rights{
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        padding: 0.5rem 0rem;
+        gap: 0.6rem;
+    }
+
+    .contact_us .social_media_icons{
+        gap:1rem;
+    }
+    .Home_footer_section{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .Home_footer_section .footer_mainContent{
+        flex-wrap: wrap;
+        justify-content: start;
+        padding-left:0;
+        padding-right:0;
+        column-gap: 4rem;
+        row-gap: 1rem;
+    }
+
+    .other_info_contaner{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .Home_footer_section .Home_footer_info{
+        width: 100%;
+        text-align: start;
+        box-sizing: border-box;
+    }
+
+    .Home_footer_section .Home_footer_info .footer_info{
+        width:100%;
+    }
+
+
+    /* .Home_footer_section .footer_rights{
+        font-size: 0.5rem;  
+        font-weight: 300;
+    } */
+
+}

@@ -4,7 +4,7 @@ import "./All_css/AboutSection.css";
 export const AboutFeture = ()=>{
 
     return(
-        <div className="AboutSection">
+        <div className="AboutSection" id="AboutSection">
             <div className="about_poster_container">
             <img src={about_poster} alt="aout-poster" className="about_poster_img" />
             <button className="btn mt-8">Learn More</button>

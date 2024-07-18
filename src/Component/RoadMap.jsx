@@ -3,7 +3,7 @@ import "./All_css/RoadMap.css";
 
 const RoadMap = () => {
   return (
-    <div className="RoadMapSection">
+    <div className="RoadMapSection" id="RoadMapSection">
       <h1 className="roadmap_heading">RoadMap</h1>
 
       <div className="outer_roadmap_container">

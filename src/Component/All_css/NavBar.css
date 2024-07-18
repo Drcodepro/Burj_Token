@@ -1,23 +1,67 @@
 
-/* CSS */
 
-.nav-container {
+.nav_container{
+  position:relative;
+  top: 0;
+  left: 0;
+  padding:1rem 2rem;
+  box-sizing: border-box;
   width: 100%;
-  height: 5rem;
-  padding: 0.5rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
-  overflow: hidden;
+  background-image: linear-gradient( 111.4deg, rgb(5, 4, 26)  6.5%,  rgb(26, 26, 57) 93.2% );
+  color: white;
 }
 
-/* .nav-container .navigation-container{
-  flex  space-x-10 text-[1rem]
-  display: flex;
-  padding-
-} */
+.nav_container .nav-img{
+  width:40px;
+}
+.nav_container a{
+  &:active{
+      color: rgb(132, 0, 255);
+  }
+  text-decoration: none;
+  color: white;
+}
 
+.site_name_nav{
+  font-family: "Yatra One", system-ui;
+  font-weight: 400;
+  margin: 0;
+}
+
+.nav_navigation_container{
+  display: flex;
+  gap: 2rem;
+}
+
+.nav_navigation_container hr{
+  display: none;
+  width: 100%;
+  border: none; 
+  height: 0.05rem; 
+  background: radial-gradient(circle, rgb(124, 224, 255) 18%, rgb(9, 27, 66) 100%);
+}
+
+.nav_navigation_container .buyNow_navigation{
+  display: none;
+}
+
+.nav_navigation {
+  cursor: pointer; 
+  &:hover {
+      text-decoration: underline;
+  }
+}
+
+.nav_container img{
+  width:8rem;
+  height: auto;
+}
+
+
+/* buy button css */
 
 .nav_buy-btn {
   align-items: center;
@@ -59,20 +103,101 @@
 }
 
 
-/* mobile responsive */
+/* navigation bar */
+.nav_container .toggle_nav_button{
+display: none;
+}
 
-@media (mAX-width:640px) {
-  .nav-container{
-    padding: 0.2rem 1rem;
-  }
-  .nav-container .nav-img{
-    height: 1.5rem;
-  }
-  .nav-container .navigation-container{
-    display: none;
-  }
-  .nav_buy-btn {
-    font-size:0.7rem;
-    height: 2rem;
+
+/* tab responsive  */
+
+@media (max-width:980px) {
+  .nav_navigation_container{
+      gap: 1rem;
+      font-size: 0.8rem;
   }
 }
+
+@media (max-width:800px) {
+  .nav_navigation_container{
+      gap: 1rem;
+      font-size: 0.6rem;
+  }
+}
+
+
+
+
+
+/* mobile responsive  */
+
+@media (max-width:690px) {
+  .nav_container{
+      padding:0.5rem 2rem;
+  }
+  .nav_navigation {
+      width: 100%;
+      text-align: center;
+     
+  }
+
+  .nav_navigation_container hr{
+      display:block;
+  }
+
+  .nav_navigation_container .buyNow_navigation{
+    display: block;
+  }
+
+  .nav_container .toggle_nav_button{
+      display: block;  
+  }
+
+  .nav_buy-btn{
+      display: none;
+  }
+
+  .navIsHidden{
+      display: none;
+      left:100%;
+  }
+  .nav_navigation_container{
+      position: absolute;
+      top:100%;
+      right:0%;
+      height: fit-content;
+      width:90%;
+      font-size: 0.8rem;
+      padding-left: 0.5rem;
+      padding-right:2rem;
+      padding-top: 0.5rem;
+      padding-bottom:0.5rem;
+      box-sizing: border-box;
+      flex-direction: column;
+      align-items:start;
+      gap: 0.3rem;
+      background-color: rgba(0, 0, 0, 0.954);
+      border: solid 2px rgba(52, 123, 255, 0.612);
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+      z-index: 99;
+  }  
+
+}
+
+@media (max-width:516px) {
+  .nav_container{
+      padding:0.5rem 2rem;
+  }
+
+  .nav_container img{
+      width:4rem;
+      height: auto;
+  }
+
+}
+
+
+/* @media (max-width:350px) {
+ 
+} */
