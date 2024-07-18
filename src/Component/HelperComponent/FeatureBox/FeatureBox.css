@@ -79,14 +79,19 @@ font-weight: 800;
 
         &::before{
             content: "";
-            border-top: 3px solid rgba(255, 255, 255, 0);
-            border-left: 3px solid rgba(255, 255, 255, 0);
+            width: 60px;
+            height: 60px;
+            border-top: 3px solid #db27ffa3;
+            border-left: 3px solid #db27ffa3;
           }
         
           &::after{
-            border-bottom: 3px solid rgba(255, 255, 255, 0);
-            border-right: 3px solid rgba(255, 255, 255, 0.002);
-          }
+            width: 60px;
+            height: 60px;
+            border-bottom: 3px solid #db27ffa3;
+            border-right: 3px solid #db27ffa3;
+          }   
+
     }
     .Feature-box .Feature-heading{
         font-size: 1.2rem;
