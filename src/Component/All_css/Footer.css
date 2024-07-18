@@ -171,6 +171,9 @@ align-items:center;
         column-gap: 4rem;
         row-gap: 1rem;
     }
+    .Home_footer_section h2{
+        font-size: 1rem;
+    }
 
     .other_info_contaner{
         display: flex;

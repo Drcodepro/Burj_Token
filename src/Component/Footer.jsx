@@ -19,7 +19,7 @@ export default function Footer() {
            <img src={burj_logo}  loading="lazy" alt="" />
            <h1>BTDT</h1>
           </div>
-          <div className="footer_info">The Burj Trading Decentralized Token (BTDT) represents a significant advancement in the integration of blockchain technology with trading systems. By creating a decentralized, secure, and user-friendly trading platform, BTDT aims to empower traders and investors with more control, transparency, and opportunities within the trading ecosystem.</div>
+          <div className="footer_info">The Burj Trading Decentralized Token (BTDT) represents a significant advancement in the integration of blockchain technology with trading systems.</div>
         </div>
 
         <div className="Important">
