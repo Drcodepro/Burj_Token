@@ -1,5 +1,5 @@
 .FeatureSection{
-    padding: 0rem 2rem 1rem 2rem;
+    padding: 0rem 2rem 0rem 2rem;
     width: 100%;
     display:flex;
     flex-direction: column;
@@ -29,6 +29,7 @@
     width: 100%;
     padding:4rem 2rem;
     margin-top: 1rem;
+    margin-bottom: 4rem;
     display: grid;
     grid-template-columns: repeat(2,1.5fr);
     justify-items: center;
@@ -88,8 +89,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -139,7 +139,7 @@
 
 @media (max-width:800px) {
     .FeatureSection{
-        padding: 0rem 2rem 1rem 2rem;
+        padding: 0rem 2rem 0rem 2rem;
     }
     .FeatureSection .Feature-boxes-container{
         grid-template-columns: repeat(1,1.5fr);
@@ -153,7 +153,8 @@
 
 @media (max-width:640px){
     .FeatureSection .Feature-boxes-container{
-        padding:4rem 1rem;
+        margin-bottom: 2rem;
+
     }
     
     .FeatureSection .FeatureSection-heading{
@@ -161,7 +162,7 @@
     }
 
     .tokenomicSection{
-        margin-top: 1rem;
+        margin-bottom: 3rem                                                                                                                                                                                                                                                                                  rem;
     }
     .tokenomic-details .tokenomc-detail-box{
        padding: 0.5rem;
@@ -176,11 +177,14 @@
 
 
 @media (max-width:490px){
+    .tokenomicSection{
+        margin-bottom: 2rem                                                                                                                                                                                                                                                                                rem;
+    }
     .Feature-boxes-container .loopShape_black{
         display: none;
     }
     .FeatureSection{
-        padding: 3rem 0.5rem 1rem 0.5rem;
+        padding: 0rem 0.5rem 0rem 0.5rem;
     }
 
     .FeatureSection .FeatureSection-heading{

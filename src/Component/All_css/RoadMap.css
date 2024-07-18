@@ -3,13 +3,12 @@
 .RoadMapSection{
   width: 100%;
   padding-left:0rem 2rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
   box-sizing: border-box;
 }
 
@@ -192,7 +191,9 @@
   }
   .RoadMapSection{
     padding: 0rem 1rem;
-    margin-top: 3rem;       
+    gap:0rem;   
+    margin-bottom: 3rem;
+ 
   }
   
   .RoadMapSection .roadmap_points_container{
