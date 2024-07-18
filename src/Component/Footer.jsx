@@ -13,7 +13,6 @@ export default function Footer() {
   return (
     <div className="Home_footer_section" id="footer">
       <div className="footer_mainContent">
-
         <div className="Home_footer_info">
           <div className="Home_Footer_logo_container">
            <img src={burj_logo}  loading="lazy" alt="" />

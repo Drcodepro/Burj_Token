@@ -1,9 +1,11 @@
-import React from "react";
 import "./All_css/RoadMap.css";
+import circle_shape from "../assets/Image/circle_shape.png";
 
 const RoadMap = () => {
   return (
     <div className="RoadMapSection" id="RoadMapSection">
+        <img src={circle_shape} alt="circle-dot" id="circle-shape"/>
+
       <h1 className="roadmap_heading">RoadMap</h1>
 
       <div className="outer_roadmap_container">

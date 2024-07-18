@@ -1,16 +1,35 @@
 
 
 .RoadMapSection{
+  position: relative;
   width: 100%;
   padding-left:0rem 2rem;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
   box-sizing: border-box;
+  overflow: hidden;
 }
+
+#circle-shape{
+  position:absolute;
+  width: 25rem;
+  z-index:-1;
+  animation: circle_animate linear 2s alternate-reverse infinite;
+}
+@keyframes circle_animate{
+  0%{
+    top: 75%;
+    right: -6%;
+  }
+  100%{
+    top: 80%;
+    right: -6%;
+  }
+} 
 
 .RoadMapSection .roadmap_heading{
   font-size: 3.5rem;
@@ -185,14 +204,44 @@
 }
 
 
+@media (max-width:900px) {
+  #circle-shape{
+    width: 20rem;
+  }
+  @keyframes circle_animate{
+    0%{
+      top: 75%;
+      right: -7%;
+    }
+    100%{
+      top: 80%;
+      right: -7%;
+    }
+  } 
+}
+
 @media (max-width:640px) {
+  #circle-shape{
+    width: 12rem;
+    animation-duration: 1.2s;
+  }
+  @keyframes circle_animate{
+    0%{
+      top:87%;
+      right: -9%;
+    }
+    100%{
+      top: 89%;
+      right: -9%;
+    }
+  } 
   .RoadMapSection .roadmap_heading{
     font-size: 2.5rem;
   }
   .RoadMapSection{
     padding: 0rem 1rem;
     gap:0rem;   
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
  
   }
   

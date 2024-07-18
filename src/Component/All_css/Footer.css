@@ -5,7 +5,7 @@
     flex-direction: column;
     width: 100%;
     box-sizing: border-box;
-    background: linear-gradient(38deg, rgba(0, 14, 61, 0.211) 0%, rgba(14, 55, 85, 0.208) 47%, rgba(93, 0, 112, 0.208) 100%);
+    background: linear-gradient(38deg, rgb(0, 7, 31) 0%, rgb(0, 21, 36) 47%, rgb(43, 0, 52) 100%);
     padding-top: 1rem;
     color: white;
     padding-left: 2rem;
