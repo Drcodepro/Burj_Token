@@ -198,9 +198,9 @@
   
   .roadmap_points_container .roadmap_point{
    position: relative;
-   width:260px;
-   height: 260px;
-   padding:2rem 2rem;
+   width:230px;
+   height: 230px;
+   padding:1.5rem 1.5rem;
   }
 
   .roadmap_point .roadmap_info .point_heading{

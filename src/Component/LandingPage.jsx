@@ -38,7 +38,7 @@ export const LandingPage = ()=>{
             <img ref={landingref} src={roundShape} alt="roundShape"  className="landing_shapeRound"/>
             
             <div className="landing_info" >
-                <h1 className="heading">Welcom to <br />
+                <h1 className="heading">Welcome to <br />
                     Burj Trading Decentralized Token
                 </h1>                
                 <p className="para">The platform supports yield farming, allowing users to provide liquidity to trading pairs and earn BTDT as incentives.</p>
