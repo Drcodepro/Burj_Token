@@ -185,53 +185,36 @@
 }
 
 
-@media (max-width:480px) {
+@media (max-width:640px) {
   .RoadMapSection{
-      padding: 1rem;
-      padding-bottom: 3rem;  
-       
+    padding: 0rem 1rem;
+    margin-top: 3rem;       
   }
   
   .RoadMapSection .roadmap_points_container{
-      gap: 3rem;
-      margin-top: 2rem;
+    gap: 3rem;
   }
+
   
   .roadmap_points_container .roadmap_point{
-      align-items: center;
-      justify-content: center;
-      gap:2rem;
+   position: relative;
+   width:260px;
+   height: 260px;
+   padding:2rem 2rem;
   }
 
   .roadmap_point .roadmap_info .point_heading{
       font-size:1rem;
       line-height: 0.9;
   }
-  
-  .roadmap_info ul li{
-      color: #E8E8E8;
-      font-weight: 200;
-      font-size: 0.6rem;
+
+  .roadmap_info_points p{
+    width: 100%;
+    font-size:0.9rem;
+    font-weight: 300;
+    color:rgb(211, 211, 211);
   }
-  
-  .roadmap_point .roadmap_phase{
-      width: 4rem;
-      height: 4rem;
-      font-size: 1rem;
-      font-weight: 700;
-      line-height: 1;
-  
-      &::before{
-          content: "";
-          position: absolute;
-          top: 2%;
-          left: 2%;
-          width: 97%;
-          height: 97%;
-          border-radius: 50%;
-          border: 2px white dashed;
-      }
-  }
+
 }
 
 @media (max-width:360px) {
