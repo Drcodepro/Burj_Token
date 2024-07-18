@@ -58,7 +58,7 @@
   text-align:start;
   border-left: rgba(219, 39, 255, 0.469) 2px solid;
   padding-left: 2rem;
-
+  
 }
 
 .home_button_container{
@@ -76,6 +76,7 @@
 
 
 .LandingPage .landing_info .heading{
+  font-family: Phantomsans, sans-serif;
   font-size:5rem;
   font-weight: 900;
   line-height: 1.2;
