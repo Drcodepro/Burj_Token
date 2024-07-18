@@ -110,7 +110,9 @@
         width: 100%;
     }
     .About-info_container .about-heading{
-        font-size: 2rem;
+        font-size: 2.5rem;
+        color: white;
+        font-weight: 900;
     }
     
     .About-info_container .about-heading-2{
