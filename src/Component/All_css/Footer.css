@@ -17,9 +17,10 @@
 
 .Home_footer_section .footer_mainContent{
     display: flex;
+    flex-wrap: wrap;
     align-items: start;
     justify-content:space-between;
-    gap: 5rem;
+    gap: 2rem;
     padding-bottom: 1rem;
     width: 100%;
 }
@@ -96,7 +97,7 @@ font-weight: 400;
 padding: 1rem 0rem;
 color: rgb(163, 163, 163);
 display: flex;
-justify-content:space-between;
+justify-content:center;
 align-items:center;
 }
 
@@ -116,13 +117,21 @@ align-items:center;
 }
 
 .contact_us .social_media_icons{
-    gap:1.5rem;
-    display: flex;
-    align-items: center;
-
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-content: center;
+    border-radius: 2rem;
+    gap: 0.5rem;
 }
+
+.contact_us .social_media_icons a{
+    padding: 1rem;
+    background-color: rgb(56, 125, 255);
+}
+
 .contact_us .social_media_icons img{
-    width: 1rem;
+    width: 2.5rem;
     height: auto;
 }
 
@@ -134,7 +143,16 @@ align-items:center;
 }
 
 
-
+@media (max-width:1150px) {
+    .contact_us .social_media_icons{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        justify-content: center;
+        align-content: center;
+        border-radius: 2rem;
+        gap: 0.5rem;
+    }
+}
 @media (max-width:850px){
 
     .Home_footer_section .Home_footer_info .footer_info{
@@ -156,8 +174,17 @@ align-items:center;
     }
 
     .contact_us .social_media_icons{
-        gap:1rem;
+        gap:0.5rem;
     }
+
+    .contact_us .social_media_icons a{
+        padding: 0.5rem;
+    }
+    
+    .contact_us .social_media_icons img{
+        width: 2rem;
+    }
+
     .Home_footer_section{
         padding-left: 1rem;
         padding-right: 1rem;
@@ -190,10 +217,20 @@ align-items:center;
         width:100%;
     }
 
+}
 
-    /* .Home_footer_section .footer_rights{
-        font-size: 0.5rem;  
-        font-weight: 300;
-    } */
+
+@media (max-width:350px) {
+    .contact_us .social_media_icons{
+        gap:0.8rem;
+    }
+    .contact_us .social_media_icons a{
+        padding: 0rem;
+        background-color: transparent;
+    }
+    
+    .contact_us .social_media_icons img{
+        width: 1rem;
+    }
 
 }

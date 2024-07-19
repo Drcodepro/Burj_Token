@@ -36,15 +36,6 @@ export default function Footer() {
           <a href=""><p>WhitePaper</p></a>
         </div>
 
-      </div>
-
-      <hr />
-
-      <div className="footer_rights">
-
-        <div className="rights">
-          <p>BTDT@2024. All rights reserved </p>
-        </div>
 
         <div className="contact_us">
           <div className="social_media_icons">
@@ -57,6 +48,15 @@ export default function Footer() {
           </div>
         </div>
 
+      </div>
+
+      <hr />
+
+      <div className="footer_rights">
+
+        <div className="rights">
+          <p>BTDT@2024. All rights reserved </p>
+        </div>
       </div>
     </div>
   );
