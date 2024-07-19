@@ -1,5 +1,7 @@
 import "./All_css/Footer.css";
 import burj_logo from "../assets/Image/burj-token.webp";
+import blue_loop from "../assets/Image/loop_shape_blue.png";
+
 
 import facebook_icon from '../assets/icon/socialMedia/facebook_white.png';
 import insta_icon from '../assets/icon/socialMedia/instagram_white.png';
@@ -12,6 +14,9 @@ import telegram_icon from '../assets/icon/socialMedia/telegram_white.png';
 export default function Footer() {
   return (
     <div className="Home_footer_section" id="footer">
+
+        <img src={blue_loop} alt="blue loop png"  className="blueLoop_img"/>
+
       <div className="footer_mainContent">
         <div className="Home_footer_info">
           <div className="Home_Footer_logo_container">

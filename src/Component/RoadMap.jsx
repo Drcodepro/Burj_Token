@@ -9,6 +9,7 @@ const RoadMap = () => {
       <h1 className="roadmap_heading">RoadMap</h1>
 
       <div className="outer_roadmap_container">
+        <div className="progress_bar"></div>
         <div className="roadmap_points_container ">
 
             <div className="roadmap_point point-box-anim">

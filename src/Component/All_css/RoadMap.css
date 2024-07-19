@@ -18,6 +18,7 @@
   position:absolute;
   width: 25rem;
   z-index:-1;
+  opacity: 0.6;
   animation: circle_animate linear 2s alternate-reverse infinite;
 }
 @keyframes circle_animate{
@@ -65,7 +66,7 @@
     top:0%;
     left:0%;
     background-color:  rgb(27, 27, 32);
-  }
+  } 
 
   /* &::after{
     content: "2024";
@@ -85,6 +86,29 @@
   } */
 }
 
+
+
+/* .progress_bar{
+    position:sticky;
+    width:100%;
+    height: 10px;
+    top:0%;
+    left:0%;
+    background-color:  rgb(203, 203, 203);
+    scale:0 1;
+    transform-origin: left;
+    z-index: -1;
+
+    animation:progress-animation linear;
+    animation-timeline: scroll(inline);
+}
+
+  @keyframes progress-animation {
+    to{scale:1 1;}
+  } */
+
+
+
 .RoadMapSection .roadmap_points_container{
   width: fit-content;
   display: flex;
@@ -94,7 +118,6 @@
   padding-right: 2rem;
   margin-top: 5rem;
   position: relative;
-
 }
 
 
@@ -141,9 +164,10 @@
     width: 60px;
     height: 60px;
   }
+
   &:hover{
     box-shadow: 3px 2px 10px 1px rgba(61, 61, 61, 0.764);
-    transform:perspective(800px) rotateY(10deg) ;
+    transform:perspective(800px) rotateY(10deg);
   }
 }
 
